@@ -85,8 +85,8 @@ public class Game {
 			player.villages.get(0).setVision();
 		}
 		
-		for(Player player : players)player.client.writer.startGameTimer(player.client, 3, 10);
-		new_Round_maker = new New_Round_maker(this, 3000, 10); // in the beginning the duration of round is 15 seconds
+		for(Player player : players)player.client.writer.startGameTimer(player.client, 10, 40);
+		new_Round_maker = new New_Round_maker(this, 10000, 40); // in the beginning the duration of round is 15 seconds
 		System.out.println("new game has started...");
 	}
 }
