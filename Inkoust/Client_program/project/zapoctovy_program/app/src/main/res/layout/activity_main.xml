@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.belafon.zapoctovy_program.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/startMenu"
+        android:visibility="gone"
+        android:padding="50dp">
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="Your name (without spaces)"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="connectToLastIp"
+            android:hint="Connect to last server"
+            android:textColorHint="@color/black"/>
+        <EditText
+            android:id="@+id/edit_ip"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="Ip adress" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="connect"
+            android:hint="Connect"
+            android:textColorHint="@color/black"/>
+        <EditText
+            android:id="@+id/port"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="port"
+            android:text="25561"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startTutorial"
+            android:hint="Tutorial"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/viewPager"
+        android:visibility="gone"
+        android:overScrollMode="always">
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

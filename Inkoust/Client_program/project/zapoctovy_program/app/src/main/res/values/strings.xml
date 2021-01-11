@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">zapoctovy_program</string>
+    <string name="slider1">Welcome</string>
+    <string name="slider2">The Time</string>
+    <string name="slider3">Villages, Units</string>
+    <string name="slider4">Village</string>
+    <string name="slider5">Map</string>
+    <string name="intreduction">Dear Lord, your peoples are waiting for your commands to spread the fame of your brightness.\n \nThis short tutorial will bring you through the laws of this world.\n \n \nContinue with slide in the right</string>
+    <string name="author">Made by Ondřej Tichavský</string>
+    <string name="end_game">In the cruel world, you will fight with other players in the time which is separated into rounds, each player can do whatever he wants until the end of the round. Then the moves of players will be calculated. \n \nDuring this short time player can not make moves. \n \nThen a new round starts. \n\nWhen the time is gone and the time of the world run out of us, the end of the game is here. \n\nThe player with the most gold is the winner.</string>
+    <string name="village_units">As a King, you can build new villages for your people. You need one free civilian and three woods to build a new village.\n\nIn the village, you can also give a job to villagers and create a unit named civilian (2. img). you need one free village and one food. You can do that by tapping on the village.\n\nOr, you can also employ a soldier (3. img).  You can do that if you move with one civilian to a place with another civilian. You have to have at least 3 stones.</string>
+    <string name="village">Villages are really important to you. Because if your civilian is in your village, he gives you one gold per round. \n\nWhen your soldier is situated in your village he gives you one point of force. The force is important, when you are attacking other player.\n\nYou can not have more than one unit in the same place.</string>
+    <string name="map_tutorial">The whole world is created by places. In this world exist few types of places:\n\nVillage, your civilians can produce gold here.\n\nMeadows, your civilians can produce food here.\n\nWoods, your civilians can produce wood here.\n\nMountains, your civilians can produce stones here.</string>
+    <string name="slider6">Attack</string>
+    <string name="attack">You can attack other players only with Soldiers. You have to just go with a soldier to the same place as the enemy.\n\nIf you attack to civilian with a soldier, a soldier always wins, but if a soldier attacks another soldier, likeliness makes the decision. It is influenced by the force of the player.  Force says the number of numbers on the dice, which are winning.</string>
+</resources>
